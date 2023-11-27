@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9d68a4b787.js" crossorigin="anonymous"></script>
+    <title>CV Anna Ryszka</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title">Anna Ryszka</h1>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="list-item"><a href="#aboute-me">Contact</a></li>
+                <li class="list-item"><a href="#summary">Summary</a></li>
+                <li class="list-item"><a href="#skills">Skills</a></li>
+                <li class="list-item"><a href="#experience">Experience</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <div class="about-me" id="about-me">
+            <div class="contact-info">
+                <p><span>Email:</span> ryszka.ana@gmail.com</p>
+                <p><span>Mobile:</span> (+48) 530 900 900</p>
+                <p><span> Linkedin:</span> https://www.linkedin.com/in/anna-ryszka-4a0976265/</p>
+                <p><span>Github: </span> https://github.com/Ryszkens</p>
+            </div>
+            <div class="img-box">
+                <img class="img-box" src="img/notebook-1850613_1280.jpg" alt="hands on laptop keyboard">
+            </div>
+        </div>
+        <section class="summary" id="summary">
+            <h2>Summary</h2>
+            <p>
+                I have been working in sales for several years. My main goal is to become a Junior Frontend Developer. I
+                spend a lot of my time learning programming, creating web pages and applications using html, css and
+                javacsript. I treat it as a hobby, passion and challenge. I love improving my programming skills and
+                learning new things is not a problem for me.
+            </p>
+        </section>
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="html skill-box">html</div>
+                <div class="css skill-box">css</div>
+                <div class="scss skill-box">scss</div>
+                <div class="javascript skill-box">javascript</div>
+                <div class="vs-code skill-box">vs code</div>
+                <div class="github skill-box">github</div>
+            </div>
+        </section>
+
+        <section class="experience" id="experience">
+            <h2>Experience</h2>
+
+            <div class="experience-container">
+                <div class="works">
+                    <h3>Projects</h3>
+                    <p>Here are my sample works:</p>
+
+                    <p><a href="https://ryszkens.github.io/Animal-s-care-project/">The web page</a></p>
+                    <p><a href="https://ryszkens.github.io/calculator-app/">The calculator app</a></p>
+
+
+                </div>
+                <div class="code-example">
+                    <h3>Code example</h3>
+                    <pre>
+            const navbar = document.querySelector(".navbar");
+            
+            const showNavbar = () => {
+                navbar.classList.add("active");
+            
+                if (window.scrollY === 0) {
+                    navbar.classList.remove("active");
+                }
+            };
+            
+            window.addEventListener("scroll", showNavbar);
+                        </pre>
+                </div>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <div class="education-container">
+                <div class="education-box">
+                    <h3>Courses</h3>
+                    <ul>
+                        <li>JS/FE Course EN 2023Q4 RS School</li>
+                        <li>Web developer course</li>
+                        <li>Javascript</li>
+                        <li>Git course</li>
+                    </ul>
+                </div>
+                <div class="language-box">
+                    <h3>Languages</h3>
+                    <p>English B2</p>
+                    <p>Polish native</p>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <hr>
+    <footer class="footer">
+        <div class="logo-section">
+            <a href="https://app.rs.school/"> <img src="./img/logo-rsschool3.png" alt="logo"></a>
+
+        </div>
+        <div class="time-section">
+            <p>November 2023</p>
+        </div>
+        <div class="github-section">
+            <p><a href="https://github.com/Ryszkens"><i class="fa-brands fa-github"></i> Github</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
