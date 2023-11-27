@@ -2,11 +2,11 @@
 
 ## Contact info
 
-- **phone:** +48 530 000 999
-- **email:** ryszka.ana@gmail.com
-- [**linkedin**](linkedin.com/in/anna-ryszka-4a0976265)
+- **Phone:** +48 530 000 999
+- **Email:** ryszka.ana@gmail.com
+- [**Linkedin**](linkedin.com/in/anna-ryszka-4a0976265)
 - [**Github**](https://github.com/Ryszkens)
-- **location:** Kraków, Poland
+- **Location:** Kraków, Poland
 
 ## Summary
 
