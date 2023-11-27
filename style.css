@@ -1,0 +1,208 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	height: 100vh;
+	font-family: "Ubuntu", sans-serif;
+	color: #e0f4f5;
+	background-color: #033540;
+}
+
+section {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: darkcyan;
+}
+.header-title {
+	padding-top: 1em;
+	letter-spacing: 0.1rem;
+	text-align: center;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+.nav-list .list-item {
+	margin: 2em;
+}
+
+.nav-list .list-item a {
+	color: #fff;
+	font-size: 1rem;
+	text-decoration: none;
+	letter-spacing: 0.3rem;
+	transition: color 0.3s;
+}
+
+.nav-list .list-item a:hover {
+	color: rgb(38, 13, 107);
+}
+
+.about-me {
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+	height: 30vh;
+}
+.about-me .contact-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contact-info p {
+	padding: 0.7em;
+}
+.contact-info span {
+	font-weight: bold;
+	color: #a7d1d2;
+}
+
+.img-box {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	height: 100%;
+}
+
+section h2 {
+	position: relative;
+	text-align: center;
+	margin: 1em;
+	padding-bottom: 0.6em;
+}
+section h2::before {
+	position: absolute;
+	top: 50%;
+	right: 58%;
+	content: "";
+	width: 60%;
+	height: 1px;
+	background-color: #a7d1d2;
+}
+section h2::after {
+	position: absolute;
+	top: 50%;
+	left: 58%;
+	content: "";
+	width: 60%;
+	height: 1px;
+	background-color: #a7d1d2;
+}
+.summary p {
+	display: flex;
+	margin: 0 auto;
+	max-width: 1000px;
+	justify-content: center;
+	text-align: center;
+	line-height: 1.8em;
+}
+
+.skills-container {
+	display: flex;
+	justify-content: center;
+}
+.skills-container .skill-box {
+	display: flex;
+	margin: 1em;
+	padding: 1.3em;
+	width: 150px;
+	height: 30px;
+	color: #033540;
+	background-color: #a7d1d2;
+	-webkit-box-shadow: 2px 2px 19px 0px rgba(1, 1, 20, 0.89);
+	-moz-box-shadow: 2px 2px 19px 0px rgba(1, 1, 20, 0.89);
+	box-shadow: 2px 2px 19px 0px rgba(1, 1, 20, 0.89);
+	align-items: center;
+	justify-content: center;
+}
+
+.experience-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.experience-container h3 {
+	text-align: center;
+	margin-bottom: 0.6em;
+}
+.experience-container .works {
+	width: 30%;
+}
+.experience-container .works p {
+	margin: 1em;
+}
+.experience-container .works p a {
+	color: #a7d1d2;
+	text-decoration: none;
+}
+.experience-container .code-example pre {
+	margin-left: 2em;
+	background-color: #63898c;
+}
+
+.education-container {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 2em;
+}
+.education-container h3 {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.education-box {
+	width: 40%;
+	text-align: left;
+}
+.education-box ul li {
+	list-style: none;
+	text-align: center;
+	margin: 0.3em;
+}
+.language-box {
+	width: 40%;
+	margin-left: 2em;
+}
+
+.language-box p {
+	margin: 0.5em;
+}
+/* Footer  */
+.footer {
+	padding: 1em;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #63898c;
+	color: #033540;
+}
+
+.footer .logo-section img {
+	width: 100px;
+	height: 50px;
+}
+
+.footer .github-section a {
+	color: #033540;
+
+	text-decoration: none;
+}
+
+.footer .github-section .fa-brands {
+	margin-right: 0.4em;
+}
