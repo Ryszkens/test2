@@ -68,15 +68,12 @@
                     <h3>Code example</h3>
                     <pre>
             const navbar = document.querySelector(".navbar");
-            
             const showNavbar = () =&gt; {
-                navbar.classList.add("active");
-            
-                if (window.scrollY === 0) {
-                    navbar.classList.remove("active");
-                }
+            navbar.classList.add("active");
+            if (window.scrollY === 0) {
+            navbar.classList.remove("active");
+            }
             };
-            
             window.addEventListener("scroll", showNavbar);
                     </pre>
                 </div>
